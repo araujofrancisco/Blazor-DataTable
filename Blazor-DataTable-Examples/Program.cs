@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Sve.Blazor.DataTable.Examples
+namespace Blazor.DataTable.Examples
 {
     public class Program
     {

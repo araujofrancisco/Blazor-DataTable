@@ -1,12 +1,12 @@
 using Microsoft.VisualBasic.CompilerServices;
 using Sve.Blazor.Core.Models;
-using Sve.Blazor.DataTable.Components;
+using Blazor.DataTable.Components;
 using System;
 using System.Linq;
 using System.Linq.Dynamic.Core;
 using System.Threading.Tasks;
 
-namespace Sve.Blazor.DataTable.Examples.Data
+namespace Blazor.DataTable.Examples.Data
 {
     public class WeatherForecastService
     {

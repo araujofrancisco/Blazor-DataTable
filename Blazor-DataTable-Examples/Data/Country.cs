@@ -1,4 +1,4 @@
-﻿namespace Sve.Blazor.DataTable.Examples.Data
+﻿namespace Blazor.DataTable.Examples.Data
 {
 	//Source: https://gist.github.com/lsancho/6b34fe18e2b1b0169786
 	public enum Country : byte

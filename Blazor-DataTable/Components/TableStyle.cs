@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sve.Blazor.DataTable.Components
+namespace Blazor.DataTable.Components
 {
     [Flags]
     public enum TableStyle

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sve-Blazor-DataTable", "Sve-Blazor-DataTable\Sve-Blazor-DataTable.csproj", "{7963D08D-7E4D-474E-A736-EF16C6B6D739}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor-DataTable", "Blazor-DataTable\Blazor-DataTable.csproj", "{7963D08D-7E4D-474E-A736-EF16C6B6D739}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sve-Blazor-DataTable-Examples", "Sve-Blazor-DataTable-Examples\Sve-Blazor-DataTable-Examples.csproj", "{2B4943A9-B8B1-49FD-A813-B05C898F0DE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor-DataTable-Examples", "Blazor-DataTable-Examples\Blazor-DataTable-Examples.csproj", "{2B4943A9-B8B1-49FD-A813-B05C898F0DE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

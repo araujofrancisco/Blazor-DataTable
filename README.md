@@ -1,8 +1,8 @@
- # Sve-Blazor-DataTable
+ # Blazor-DataTable
 
 Blazor DataTable component with support for client/server side paging, filtering and sorting, build on top of bootstrap 4.
 
-![Main gif](/Sve-Blazor-DataTable-Examples/Content/Main.gif)
+![Main gif](/Blazor-DataTable-Examples/Content/Main.gif)
 
 
 ## Important Notice
@@ -23,28 +23,28 @@ This project is still under active development! Currently an alpha version is av
 
 
 ### Installation
-1. Install the [NuGet](https://www.nuget.org/packages/Sve.Blazor.DataTable/) package:
+1. Install the [NuGet](https://www.nuget.org/packages/Blazor.DataTable/) package:
 
    ```
-   > dotnet add package Sve.Blazor.DataTable
+   > dotnet add package Blazor.DataTable
    
    OR
    
-   PM> Install-Package Sve.Blazor.DataTable
+   PM> Install-Package Blazor.DataTable
    ```
    Use the `--version` option to specify a specific version to install.
 
-   Or use the build in NuGet package manager of your favorite IDEA. Simply search for `Sve.Blazor.DataTable`, select a version and hit install.
+   Or use the build in NuGet package manager of your favorite IDEA. Simply search for `Blazor.DataTable`, select a version and hit install.
 
 2. Import the components:
 
-   Add the following using statement `@using Sve.Blazor.DataTable.Components` to one of the following: 
+   Add the following using statement `@using Blazor.DataTable.Components` to one of the following: 
    - For global import add it to your  `_Imports.razor` file
    - For a scoped import add  it to your desired Blazor component
 
 3. Reference js interop file:
    
-    Add `<script src="/_content/Sve.Blazor.DataTable/js/DataTable.js"></script>` to your _Host.cshtml or your index.html
+    Add `<script src="/_content/Blazor.DataTable/js/DataTable.js"></script>` to your _Host.cshtml or your index.html
 
 ## Usage
 
@@ -492,7 +492,7 @@ This project is still under active development! Currently an alpha version is av
     <DataTableColumn TModel="WeatherForecast" Property="(e) => e.UpdatedRecently" CustomTitle="Recently updated"/>
 </DataTable>
 ```
-![Basic example](/Sve-Blazor-DataTable-Examples/Content/BasicExample.PNG)
+![Basic example](/Blazor-DataTable-Examples/Content/BasicExample.PNG)
 
 <br />
 <br />
@@ -522,7 +522,7 @@ This project is still under active development! Currently an alpha version is av
 </DataTable>
 ```
 
-![Template example](Sve-Blazor-DataTable-Examples/Content/CustomTemplateExample.PNG)
+![Template example](Blazor-DataTable-Examples/Content/CustomTemplateExample.PNG)
 
 <br />
 <br />
@@ -541,7 +541,7 @@ This project is still under active development! Currently an alpha version is av
 </DataTable>
 ```
 
-![Sorting example](/Sve-Blazor-DataTable-Examples/Content/SortingExample.gif)
+![Sorting example](/Blazor-DataTable-Examples/Content/SortingExample.gif)
 
 <br />
 <br />
@@ -560,7 +560,7 @@ This project is still under active development! Currently an alpha version is av
 </DataTable>
 ```
 
-![Paging example](/Sve-Blazor-DataTable-Examples/Content/PagingExample.gif)
+![Paging example](/Blazor-DataTable-Examples/Content/PagingExample.gif)
 
 <br />
 <br />
@@ -579,7 +579,7 @@ This project is still under active development! Currently an alpha version is av
     </DataTable>
 ```
 
-![Filtering example](/Sve-Blazor-DataTable-Examples/Content/FilteringExample.gif)
+![Filtering example](/Blazor-DataTable-Examples/Content/FilteringExample.gif)
 
 <br />
 <br />
@@ -598,7 +598,7 @@ This project is still under active development! Currently an alpha version is av
     </DataTable>
 ```
 
-![Header filtering example](/Sve-Blazor-DataTable-Examples/Content/HeaderFilteringExample.gif)
+![Header filtering example](/Blazor-DataTable-Examples/Content/HeaderFilteringExample.gif)
 
 <br />
 <br />
@@ -622,7 +622,7 @@ This project is still under active development! Currently an alpha version is av
     </DataTable>
 ```
 
-![Virtualization example](/Sve-Blazor-DataTable-Examples/Content/VirtualizationExample.gif)
+![Virtualization example](/Blazor-DataTable-Examples/Content/VirtualizationExample.gif)
 
 <br />
 <br />
@@ -663,13 +663,13 @@ public async Task SearchForecastAsync(RequestArgs<WeatherForecast> args)
     
     // Use the Core.Utils to easily apply paging and sorting
     // Or use the paging info in RequestArgs to build your own paging solution
-    pagedResult = Sve.Blazor.Core.Utils.ApplyPaging(result, pager);
+    pagedResult = Blazor.Core.Utils.ApplyPaging(result, pager);
 
     return Task.FromResult(pagedResult);
 }
 ```
 
-![Server side example](/Sve-Blazor-DataTable-Examples/Content/ServerSideExample.gif)
+![Server side example](/Blazor-DataTable-Examples/Content/ServerSideExample.gif)
 
 <br />
 <br />
@@ -682,7 +682,7 @@ public async Task SearchForecastAsync(RequestArgs<WeatherForecast> args)
 </DataTable>
 ```
 
-![Small table example](/Sve-Blazor-DataTable-Examples/Content/SmallTableExample.PNG)
+![Small table example](/Blazor-DataTable-Examples/Content/SmallTableExample.PNG)
 <br />
 <br />
 
@@ -693,7 +693,7 @@ public async Task SearchForecastAsync(RequestArgs<WeatherForecast> args)
 </DataTable>
 ```
 
-![Bordered table example](/Sve-Blazor-DataTable-Examples/Content/BorderedTableExample.PNG)
+![Bordered table example](/Blazor-DataTable-Examples/Content/BorderedTableExample.PNG)
 
 <br />
 <br />
@@ -704,7 +704,7 @@ public async Task SearchForecastAsync(RequestArgs<WeatherForecast> args)
 </DataTable>
 ```
 
-![Borderless table example](/Sve-Blazor-DataTable-Examples/Content/BorderlessTableExample.PNG)
+![Borderless table example](/Blazor-DataTable-Examples/Content/BorderlessTableExample.PNG)
 
 <br />
 <br />
@@ -715,7 +715,7 @@ public async Task SearchForecastAsync(RequestArgs<WeatherForecast> args)
 </DataTable>
 ```
 
-![Dark table example](/Sve-Blazor-DataTable-Examples/Content/DarkTableExample.PNG)
+![Dark table example](/Blazor-DataTable-Examples/Content/DarkTableExample.PNG)
 
 <br />
 <br />
@@ -727,7 +727,7 @@ public async Task SearchForecastAsync(RequestArgs<WeatherForecast> args)
 </DataTable>
 ```
 
-![Hoverable table example](/Sve-Blazor-DataTable-Examples/Content/HoverableTableExample.PNG)
+![Hoverable table example](/Blazor-DataTable-Examples/Content/HoverableTableExample.PNG)
 
 <br />
 <br />
@@ -739,7 +739,7 @@ public async Task SearchForecastAsync(RequestArgs<WeatherForecast> args)
 </DataTable>
 ```
 
-![Striped table example](/Sve-Blazor-DataTable-Examples/Content/StripedTableExample.PNG)
+![Striped table example](/Blazor-DataTable-Examples/Content/StripedTableExample.PNG)
 
 <br />
 <br />
@@ -756,7 +756,7 @@ public async Task SearchForecastAsync(RequestArgs<WeatherForecast> args)
 </DataTable>
 ```
 
-![Alignment example](/Sve-Blazor-DataTable-Examples/Content/AlignmentExample.PNG)
+![Alignment example](/Blazor-DataTable-Examples/Content/AlignmentExample.PNG)
 
 <br />
 <br />

@@ -1,6 +1,6 @@
 using System;
 
-namespace Sve.Blazor.DataTable.Examples.Data
+namespace Blazor.DataTable.Examples.Data
 {
     public class WeatherForecast
     {

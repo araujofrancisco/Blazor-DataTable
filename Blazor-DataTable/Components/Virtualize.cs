@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Sve.Blazor.DataTable.Components
+namespace Blazor.DataTable.Components
 {
     // Source: https://github.com/aspnet/samples/blob/master/samples/aspnetcore/blazor/Virtualization/Shared/Virtualize.cs
     public class Virtualize<TModel> : ComponentBase

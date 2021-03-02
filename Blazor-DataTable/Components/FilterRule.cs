@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Runtime.InteropServices;
 
-namespace Sve.Blazor.DataTable.Components
+namespace Blazor.DataTable.Components
 {
     public class
         FilterRule<TModel>

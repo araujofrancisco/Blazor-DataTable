@@ -17,7 +17,7 @@
 
 @code {
     private bool firstFetch = true;
-    private Sve.Blazor.Core.Models.PagedResult<WeatherForecast> pagedForecasts = new Core.Models.PagedResult<WeatherForecast>(new List<WeatherForecast>(), pageNr: 1, pageSize: 10, 0);
+    private Sve.Blazor.Core.Models.PagedResult<WeatherForecast> pagedForecasts = new Sve.Blazor.Core.Models.PagedResult<WeatherForecast>(new List<WeatherForecast>(), pageNr: 1, pageSize: 10, 0);
 
     private async Task DoFetchData(RequestArgs<WeatherForecast> args)
     {

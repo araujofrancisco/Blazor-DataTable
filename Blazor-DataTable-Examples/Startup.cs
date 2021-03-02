@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Sve.Blazor.DataTable.Examples.Data;
+using Blazor.DataTable.Examples.Data;
 
-namespace Sve.Blazor.DataTable.Examples
+namespace Blazor.DataTable.Examples
 {
     public class Startup
     {
